@@ -1,2 +1,2 @@
 # thefoody
- simple e-commerce site
+ simply e-commerce site
