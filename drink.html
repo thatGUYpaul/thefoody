@@ -24,19 +24,36 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand" href="index.html">DAEYANG CAFÉ&nbsp;</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
+        <div class="container-fluid"><a class="navbar-brand" href="index.html">DAEYANG CAFÉ&nbsp;</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link active" href="indexmain.html">PRODUCTS&nbsp;</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="breakfast.html">category</a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
-                </ul><a class="btn btn-primary ms-auto" role="button" href="breakfast.html" rel="prev">back</a><a class="btn btn-primary" role="button" href="map.html">faq</a>
+                </ul>
+                <div class="ms-auto" data-reflow-type="product-search" data-reflow-search-url="index.html" data-reflow-show-button="true"></div><a class="btn btn-primary ms-auto" role="button" href="cart.html" style="padding-right: 12px;padding-left: 12px;">SEE CART</a>
             </div>
         </div>
     </nav>
     <div class="container">
-        <div data-reflow-type="product" data-reflow-shoppingcart-url="cart.html"></div>
+        <h1 style="padding: 0px;padding-bottom: 25px;">avialable drinks</h1>
     </div>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="padding-bottom: 10px;">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="breakfast.html" target="_parent">BREAKFAST&nbsp;</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="lunch.html">LUNCH&nbsp;</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="snack.html">snack</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="drink.html">drinks</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="dinner.html">dinner</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="fruit.html">fruits</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div data-reflow-type="product-list" data-reflow-shoppingcart-url="cart.html" data-reflow-layout="cards" data-reflow-order="date_desc" data-reflow-category="460504294"></div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.reflowhq.com/v2/toolkit.min.js" data-reflow-store="1609410670"></script>
     <script src="assets/js/bs-init.js"></script>
